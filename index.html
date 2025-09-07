@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color:hsl(0, 0%, 8%);
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height:100vh;
+    }
+    .card{
+      background-color: hsl(0, 0%, 12%) ;
+      padding: 30px;
+      border-radius: 12px;
+      width: 300px;
+      text-align: center;
+    }
+    .card img{
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .card h2{
+      font-size: 20px;
+      margin-bottom: 6px;
+    }
+    .card p.location{
+      color:hsl(75, 94%, 57%) ;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .card p.bio{
+      font-size: 14px;
+      color:hsl(0, 0%, 100%) ;
+      margin-bottom: 20px;
+    }
+    .card a{
+      display: block;
+      text-decoration: none;
+      background-color: hsl(0, 0%, 20%) ;
+      color: white;
+      padding: 12px;
+      margin: 8px 0;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .card a:hover{
+      background-color: #c5f82a;
+      color: #1f1f1f;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="assets/images/avatar-jessica.jpeg" alt="">
+    <h2>Jessica Randall</h2>
+    <p class="location">London,United Kingdom</p>
+    <p class="bio">"Front end developer and avid reader"</p>
+    <a href="#">Github</a>
+    <a href="#">Frontend Mentor</a>
+    <a href="#">Linkedin</a>
+    <a href="#">Twitter</a>
+    <a href="#">Instagram</a>
+  </div>
+</body>
+</html>
